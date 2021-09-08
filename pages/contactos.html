@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="sitio de la panaderia cocu">
+    <meta name="keywords" content="pan, facturas, tortas">
+    <meta name="author" content="Gaston Ivan Devalis">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/97add05686.js" crossorigin="anonymous"></script>
+    <title>Panaderia Cocu</title>
+</head>
+<body>
+    <header>
+      <!-- Barra de Navegacion -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/cocu_logo-450.png" alt="logo de la panaderia" width="100">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <section class="categoria">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Historia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="contactos.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </nav>
+    </header>
+    
+    <main class="container">
+        <section>
+            <h1 class="display-2 text-center">Contactanos</h1>
+            <hr>
+            <article class="row">
+                <div class="col-sm-12 col-md-6 mb-3">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombreApellido" class="form-label">Nombre y apellido</label>
+                            <input type="text" class="form-control" id="nombreApellido" required maxlength="50" minlength="4">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mail" class="form-label">Email</label>
+                            <input type="email" id="mail" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="consulta" class="form-label">Consulta</label>
+                            <textarea id="consulta" cols="30" rows="4" class="form-control" minlength="3" maxlength="250" required></textarea>
+                        </div>
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-sm-12 col-md-6"></div>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+      <!-- Footer -->
+      <section class="row bg-dark py-4 pie">
+        <div class="col-sm-12 col-md-4">
+          <img src="../img/cocu_logo-450.png" alt="logo cocu" width="200px">
+        </div>
+        <div class="col-sm-12 col-md-4 text-light">
+          <h5>Horarios de atencion:</h5>
+          <p>Lunes a viernes: 09hs-18hs</p>
+          <p>Sabado,domingo y feriados: 09hs-14hs</p>
+        </div>
+        <div class="col-sm-12 col-md-4 text-light">
+          <h5>Seguinos en nuestras redes</h5>
+          <i class="fab fa-facebook-square fa-2x"></i>
+          <i class="fab fa-twitter-square fa-2x"></i>
+          <i class="fab fa-instagram-square fa-2x"></i>
+        </div>
+      </section>
+    </footer>
+
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

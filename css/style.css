@@ -1,0 +1,26 @@
+@media all and (max-width: 576px){ 
+    .img-responsive { 
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .pie {
+        text-align: center;
+    }
+}
+
+/* Barra de Navegacion */
+
+
+/* Seccion Tarjetas */
+.efectoimg:hover {
+    filter: opacity(50%);
+    transition: 400ms;
+}
+
+
+/* Footer */
+.pie {
+    display: flex;
+    align-items: center;
+}
